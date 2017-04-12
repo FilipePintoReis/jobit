@@ -1,3 +1,5 @@
+
+
 /* --------------------------------
 
 Main Components
@@ -417,6 +419,14 @@ li.single-event {
     display: table;
     width: 100%;
 }
+.cd-schedule .event-modal .header .event-name{
+font-size:24px;
+}
+
+.cd-schedule .event-modal .header .speakers{
+  padding-top:30px;
+
+}
 
 .event-logo {
 
@@ -426,7 +436,20 @@ li.single-event {
     height:auto;
     width:auto;
     max-width: 200px;
-    max-height:85px;
+    max-height:55px;
+    padding-top:10px;
+}
+
+.event-logo-square {
+
+    /*background-size: 65px 65px; */
+    background-repeat: no-repeat;
+    margin: auto;
+    height:auto;
+    width:auto;
+    max-width: 150px;
+    max-height:150px;
+    padding-top:10px;
 }
 
 .cd-schedule .event-modal .header .content {
@@ -451,7 +474,7 @@ li.single-event {
     line-height: 1.4;
     height: 100%;
     overflow: hidden;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans';
     text-align: justify;
 }
 

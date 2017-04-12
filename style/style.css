@@ -66,6 +66,10 @@
   padding-top:10px; !important
 }
 
+#team a:hover{
+  text-decoration: none; !important
+}
+
 
 #details {
     background: rgb(152, 193, 195);
@@ -171,7 +175,7 @@
 
 #team .round-img:hover {
     transform: scale(1.5);
-    display:inline-block;
+  /*  display:inline-block; */
 }
 
 .speaker-img {
