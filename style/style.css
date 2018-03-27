@@ -207,6 +207,16 @@ html, body {
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
+.schedule-day .program {
+    cursor: pointer;
+}
+
+.schedule-day .program:hover {
+    opacity: 0.6;
+    background-color: #dae3f2;
+}
+
 .schedule-day ul li:not(:last-child) .number span:last-child {
   display: none;
 }
